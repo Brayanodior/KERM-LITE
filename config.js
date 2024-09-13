@@ -17,17 +17,17 @@ module.exports = {
 
    // String Values
    SESSION_ID: process.env.SESSION_ID || "", // Put your session
-   HANDLERS: process.env.HANDLER === "false" || process.env.HANDLER === "null" ? "^" : "[.]",
+   HANDLERS: process.env.HANDLER === "false" || process.env.HANDLER === "null" ? "^" : "[null]",
    BOT_INFO: process.env.BOT_INFO || "Kɢᴛᴇᴄʜ;KᴇʀᴍLɪᴛᴇ⚡️", // YourName;BotName;Image/VideoLink
-   SUDO: process.env.SUDO || "237656520674",
+   SUDO: process.env.SUDO || "393347302084",
    PRESENCE: process.env.PRESENCE || "available", // "unavailable", "available", "composing", "recording", "paused"
    CAPTION: process.env.CAPTION || "© Kᴇʀᴍ ᴍᴅ",
    TIME_ZONE: process.env.TIME_ZONE || "Africa/Lagos",
    ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
    BRANCH: "master",
-   AUTHOR: process.env.AUTHOR || "Kᴇʀᴍ-ᴍᴅ",
+   AUTHOR: process.env.AUTHOR || "brayano_MD🖤",
    ANTIWORD: process.env.ANTIWORD || "badword1,badword2,badword3",
-   PACKNAME: process.env.PACKNAME || "KᴇʀᴍLɪᴛᴇ⚡️",
+   PACKNAME: process.env.PACKNAME || "brayano_Lɪᴛᴇ⚡️",
    WELCOME_MSG: process.env.WELCOME_MSG || "Hi @user Welcome to @gname",
    GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Seeing you",
    RMBG_KEY: process.env.RMBG_KEY || "",
